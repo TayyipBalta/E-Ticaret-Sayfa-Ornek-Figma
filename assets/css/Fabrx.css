@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+
+  /*!---CSS-RESET---!*/
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+    font: 30px/37px 'Montserrat' , sans-serif;
+    font-weight: 600;
+  }
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  /*!---CSS-RESET---!*/
+
+  /*---Body-Baslangic---*/
+  body
+  {
+    font: 600 16px/28px 'open sans' , sans-serif ;
+    color: #212121;
+  }
+  /*---Body-Bitis---*/
+
+  /*---Container-Baslangic---*/
+  .container
+  {
+    display: flex;
+    flex-direction: column;
+    min-width: 1440px;
+    flex-wrap: nowrap;
+  }
+   /*---Container-Bitis---*/
+
+   /*---header-Baslangic---*/
+  .header
+  {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 34px;
+    margin-bottom: 34.75px;
+    margin-left: 165px;
+    margin-right: 171.16px;
+  }
+  .logo
+  {
+    display: flex;
+    margin:0;
+  }
+  .links
+  {
+    display:flex;
+    gap: 40px;
+    list-style: none;
+  }
+  a
+  {
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #212121;
+  }
+  .sepetZil
+  {
+    display: flex;
+    gap: 50.77px;
+  }
+   /*---header-Bitis---*/
+
+   /*!---UST-KİSİM-BASLANGİC---!*/
+
+   .ustKisim
+   {
+    display: flex;
+    margin-left: 200px;
+    gap: 65px;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+   
+
+   /*!---SOL-TARAF-BASLANGİC---!*/
+
+   .solTaraf
+   {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 180px;
+   }
+
+   .dosyaYolu
+   {
+    display: flex;
+    flex-direction: row;
+    margin-right: 350px;
+    justify-content: center;
+   }
+   .urunResim
+   {
+    display: flex;
+    flex-direction: row;
+   }
+   .urunDigerResim
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+   }
+
+   /*!---SOL-TARAF-BİTİS---!*/
+
+   /*!---SAG-TARAF-BASLANGİC---!*/
+   .sagTaraf
+   {
+    display: flex;
+    flex-direction: column;
+    margin-top: 59.18px;
+   }
+   .yildiz
+   {
+    display: flex;
+    flex-direction: row;
+    width: 129px;
+    height: 17px;
+   }
+   .esyaİsmi
+   {
+    display: flex;
+    flex-direction: column;
+    column-gap: 8px;
+    margin-top: 16.6px;
+   }
+   .esyaİsmi h6
+   {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 475px;
+    left: 0px;
+    top: 35.06%;
+    bottom: 40.69%;
+   }
+   
+   .fiyat
+   {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   }
+   .colorText
+   {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+   }
+   .renk
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .bedenText
+   {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    gap: 200px;
+   }
+   .beden
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   }
+   .sepet
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-top: 25px;
+   }
+   .favori
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+   }
+   .esyaBilgisi
+   {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-left: -38px;
+   }
+   /*!---SAG-TARAF-BİTİS---!*/
+
+   /*!---UST-KİSİM-BİTİS---!*/
+
+   /*---------------------------------------------------*/
+
+   /*!---ORTA-KİSİM-BASLANGİC---!*/
+   .ortaKisim
+   {
+    display: flex;
+    flex-direction: column;
+   }
+   .urunler
+   {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+   }
+   .ortaBaslik
+   {
+    margin-top: 133px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+   .urunlerinResimleri
+   {
+    display: flex;
+    gap: 23.5px;
+    margin-top: 32px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+   .urunlerinKisaBilgileri
+   {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 17.19px;
+    margin-inline: 10px;
+   }
+   .urunPuani
+   {
+    display: flex;
+    gap: 192.39px;
+    margin-top: 17.19px;
+    margin-right: 166px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+   }
+   .urunlerin-isimleri
+   {
+    display: flex;
+    list-style: none;
+    gap: 58px;
+    margin-top: 8.77px;
+    margin-right: 71px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   }
+   .urunlerinFiyatlari
+   {
+    display: flex;
+    list-style: none;
+    gap: 232px;
+    flex-wrap: nowrap;
+    margin-right: 240px;
+    justify-content: center;
+    flex-direction: row;
+   }
+   .kargo
+   {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    margin-right: 57px;
+   }
+   
+   /*!---ORTA-KİSİM-BİTİS---!*/
+
+   /*!---ALT-KİSİM-BASLANGİC---!*/
+   .altBaslik
+   {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 41px;
+    margin-right: 940px;
+    flex-wrap: wrap;
+   }
+   .latestResimleri
+   {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: center;
+    margin-right: 83px;
+   }
+   
+   /*!---ALT-KİSİM-BİTİS---!*/
+
+   /*!---FOOTER-BASLANGİC---!*/
+   .footer li
+   {
+    font: 400 14px/24px 'Open Sans' sans-serif;
+    color: #52647C;
+    list-style: none;
+   }
+   .footer a
+   {
+    color: #52647C;
+   }
+   .footer h1
+   {
+    font: 700 14px/24px 'Open Sans' sans-serif bold;
+   }
+   .footer
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 90px;
+   }
+   .solFooter
+   {
+    width: 496px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 154px;
+   }
+   .sagFooter
+   {
+    width: 496px;
+    height: 152px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 152px;
+   }
+   .sagFooter h1
+   {
+    font-family: 'Open Sans' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    width: 149.33px;
+    height: 24px;
+   }
+
+   /*!---FOOTER-BİTİS---!*/
+
+   /*!---SOSYAL-MEDYA-BASLANGİC---!*/
+   .sosyalMedya
+   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 110px;
+   }
+   /*!---SOSYAL-MEDYA-BİTİS---!*/
